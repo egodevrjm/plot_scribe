@@ -86,8 +86,8 @@ Add the bin folder to your system PATH
 ## Example output:
 
 The following video was from a project called 'Walking on the Moon' which had just two shots.
-![🎥 Video from two 'shots' stitched](Walking on the Moon_stitched.mp4)
+[🎥 Video from two 'shots' stitched](Walking on the Moon_stitched.mp4)
 
 This video was the first 'shot' from another project focused on visiting the iconic landmarks from British history with 11 shots.
-![🎥 Video from one 'shots'](shot_1.mp4)
+[🎥 Video from one 'shots'](shot_1.mp4)
 
