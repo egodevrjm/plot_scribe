@@ -48,7 +48,27 @@ PlotScribe allows users to automate or manually input each stage of the video cr
 5. ***Run the application***:
    python plotscribe.py
 
-   
+### ffmpeg
+
+PlotScribe uses moviepy to stitch together the generated videos. To use moviepy you need [ffmpeg] (https://www.ffmpeg.org/) on your system. 
+
+***For macOS (using Homebrew)***:
+```bash
+   brew install ffmpeg
+```
+
+***For Linux (Ubuntu/Debian)***:
+```bash
+   sudo apt-get update
+   sudo apt-get install ffmpeg
+```
+
+***For Windows***:
+Download the FFmpeg builds from [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
+Extract the downloaded file
+Add the bin folder to your system PATH
+
+***_After installing ffmpeg, make sure to restart your Python environment or IDE for the changes to take effect._***
 
 ### Platforms
 
