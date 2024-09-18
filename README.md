@@ -19,8 +19,9 @@ Each stage will also have a manual entry option including the story generation f
 10. Integration of an AI music API such as Suno 
 11. Integration of ElevenLabs for voice over and SFX 
 12. Could even integrate Hedra API for lip-sync 
-13. 
 
-Will be making it open source and available on GitHub once steps 1-7 are functional. So far its been about 18 hours from concept to step 5.
+## Usage guide
+
+
 
 ![PlotScribe Screenshot](/ps_ss.png)
