@@ -85,9 +85,18 @@ Add the bin folder to your system PATH
 
 ## Example output:
 
-The following video was from a project called 'Walking on the Moon' which had just two shots.
-[🎥 Video from two 'shots' stitched](Walking on the Moon_stitched.mp4)
+### Project 1: Visiting the Iconic Landmarks from British History (11 Shots)
 
 This video was the first 'shot' from another project focused on visiting the iconic landmarks from British history with 11 shots.
-[🎥 Video from one 'shots'](shot_1.mp4)
+
+[![Watch the video](https://img.youtube.com/vi/UEkjmYxo34g/maxresdefault.jpg)](https://www.youtube.com/watch?v=UEkjmYxo34g)
+
+---
+
+### Project 2: Walking on the Moon (2 Shots)
+
+The following video was from a project called 'Walking on the Moon,' which had just two shots.
+
+[![Watch the video](https://img.youtube.com/vi/lcxhFd_RWyY/maxresdefault.jpg)](https://www.youtube.com/watch?v=lcxhFd_RWyY)
+
 
