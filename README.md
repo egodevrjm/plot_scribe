@@ -1,28 +1,34 @@
 # PlotScribe
 
-PlotScribe is a tool designed for rapid prototyping of AI-generated videos, taking simple text prompts and transforming them into multi-shot videos. Leveraging APIs like Luma AI's Dream Machine, FAL AI, and Groq, PlotScribe automates the process of generating a story, splitting it into individual shots, creating images for each shot, and stitching it into a video.
+PlotScribe is a tool designed for rapid prototyping of AI-generated videos, transforming simple text prompts into multi-shot videos. Leveraging APIs like Luma AI's Dream Machine, FAL AI's Flux API, and Groq, PlotScribe automates the process of generating a story, splitting it into individual shots, creating images for each shot, and stitching them into a video.
 
 ## Concept
 
-The inspiration for PlotScribe came from the release of the Luma AI Dream Machine API. I wanted to build a rapid prototyping tool for AI video content, enabling users to generate and visualize ideas quickly.
-
-After sketching a workflow in the morning and working on the core structure during a lunch break, I developed a rough prototype that now performs most of the intended functionality.
+The inspiration for PlotScribe came from the release of the Luma AI Dream Machine API. The goal was to build a rapid prototyping tool for AI video content, enabling users to generate and visualize ideas quickly.
 
 PlotScribe allows users to automate or manually input each stage of the video creation process. For users who prefer manual control, the tool can also be used to plot their own ideas and prototype the visuals before actual filming.
 
 ## Features
 
-1. **Title and Shot Definition**: Users input a project title and the desired number of shots.
-2. **Story Generation**: PlotScribe sends the title to the Groq API (running Meta's Llama 3.1 8b model), which generates a short story based on the title.
-3. **Shot Creation**: Groq splits the story into the specified number of shots and creates a description, image prompt, and motion prompt for each shot.
-4. **Image Generation**: Users can generate images for individual shots or all shots at once using the FAL AI Flux API, with prompts designed for consistency across shots.
-5. **Video Generation**: Users send the image and motion prompt to the Luma AI Dream Machine API to generate a video for each shot.
-6. **Export**: Users can export shots individually for further use.
+1. **Title and Shot Definition**: Input a project title and specify the desired number of shots.
+2. **Story Generation**: Sends the title to the Groq API (using Meta's Llama 3.1 70B model) to generate a short story based on the title.
+3. **Shot Creation**: The story is split into the specified number of shots, each with a description, image prompt, and motion prompt.
+4. **Image Generation**: Generate images for individual shots using the FAL AI Flux API, with prompts designed for consistency across shots.
+5. **Video Generation**: Use the Luma AI Dream Machine API to generate a video for each shot based on the image and motion prompt.
+6. **Export and Stitching**: Export images and videos individually or stitch all videos together into a single video file.
+7. **Shot Management**: Add, remove, and reorder shots within the project.
+
+## Updates
+
+- **User Interface Overhaul**: Transitioned to Tkinter for the GUI, providing a more streamlined and user-friendly interface.
+- **Progress Indicators**: Added progress bars and status messages to inform users of ongoing API calls and processes.
+- **Improved Layout**: Action buttons are now arranged vertically on the right side, making the shot display area wider and more prominent.
+- **Error Handling**: Enhanced error messages and handling for a better user experience.
+- **Dependencies Updated**: Requirements have been updated to reflect the current libraries used.
 
 ## To-Do
 
-- **Video Stitching**: Export clips stitched together to form a full video.
-- **Reordering Shots**: Improve the UI to allow for reordering shots and send updates back to the Groq API to rewrite the story based on shot order.
+- **Video Playback**: Integrate video playback within the application using a suitable library.
 - **AI Music Integration**: Integrate a music API such as Suno for background scores.
 - **Voice and SFX**: Integrate ElevenLabs for voiceover and sound effects.
 - **Lip-sync**: Consider integrating Hedra API for lip-sync functionality in videos.
@@ -46,7 +52,7 @@ PlotScribe allows users to automate or manually input each stage of the video cr
    Replace your_*_api_key_here with your actual API keys.
    
 5. ***Run the application***:
-   python plotscribe.py
+   python plotscribe_app.py
 
 ### ffmpeg
 
@@ -76,4 +82,4 @@ Add the bin folder to your system PATH
 2. Image: [FAL AI Flux API](https://fal.ai) (I've used Schnell in code but upgrade to Pro for better output)
 3. Text: [Groq API](https://console.groq.com/docs/models) (I've used Llama 3.1 70B but any model should work)
 
-![PlotScribe Screenshot](/ps_ss.png)
+
