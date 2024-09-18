@@ -32,9 +32,11 @@ PlotScribe allows users to automate or manually input each stage of the video cr
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/egodevrjm/plot_scribe.git
+   
 2. ***Install required packages***:
    ```bash
    pip install -r requirements.txt
+   
 3. ***Set up API keys***: You can either set them as environment variables or create a .env file in the project root with the following content:
    ```bash
    GROQ_API_KEY=your_groq_api_key_here
@@ -42,8 +44,11 @@ PlotScribe allows users to automate or manually input each stage of the video cr
    LUMAAI_API_KEY=your_lumaai_api_key_here
    ```
    Replace your_*_api_key_here with your actual API keys.
-4. ***Run the application***:
+   
+5. ***Run the application***:
    python plotscribe.py
+
+   
 
 ### Platforms
 
