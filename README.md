@@ -10,12 +10,16 @@ Each stage will also have a manual entry option including the story generation f
 3. Groq generates a short story based on the title 
 4. Groq splits the short story up logically into however many 'shots' the user defined and creates a description, image prompt and motion prompt for each shot
 5. User can generate an image using the fal ai Flux API for each shot individually or all shots as a whole, with descriptive prompts for consistency.
-.... below here is functionality I'm still working on ....
 6. User can then send the image and motion prompt to the Luma AI Dream Machine API to generate a video for each shot.
-7. User can export shots individually or stitched together.
+7. User can export shots individually 
 
-Ideas for expansion:
-Integration of an AI music API such as Suno and ElevenLabs for voice over and SFX. Could even integrate Hedra API for lip-sync.
+## TO DO
+8. Export of clips stitched together.
+9. Improved UI for re-ordering shots, sending it back to Groq API to re-write based on position.
+10. Integration of an AI music API such as Suno 
+11. Integration of ElevenLabs for voice over and SFX 
+12. Could even integrate Hedra API for lip-sync 
+13. 
 
 Will be making it open source and available on GitHub once steps 1-7 are functional. So far its been about 18 hours from concept to step 5.
 
