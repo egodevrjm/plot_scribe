@@ -4,3 +4,4 @@ python-dotenv==1.0.0
 lumaai==0.1.10
 fal-serverless==0.5.0
 moviepy==1.0.3
+imageio-ffmpeg==0.4.8
