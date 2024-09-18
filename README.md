@@ -1,4 +1,4 @@
-# plot_scribe
+# PlotScribe
 I had this idea, based on the fact Luma AI has published an API for Dream Machine — create a tool that can take a simple text prompt and generate a multi-shot video. Basically a rapid prototyper for AI video content.
 
 I sat down to work out a rough workflow this morning before work. Created some core code structure on my lunchbreak and now I have a roughly functional application that does most of what I want.
@@ -18,3 +18,5 @@ Ideas for expansion:
 Integration of an AI music API such as Suno and ElevenLabs for voice over and SFX. Could even integrate Hedra API for lip-sync.
 
 Will be making it open source and available on GitHub once steps 1-7 are functional. So far its been about 18 hours from concept to step 5.
+
+![PlotScribe screenshot]([http://url/to/img.png](https://pbs.twimg.com/media/GXuJC71WsAEHuUs?format=jpg&name=medium))
