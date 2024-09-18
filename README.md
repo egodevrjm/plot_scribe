@@ -20,8 +20,30 @@ Each stage will also have a manual entry option including the story generation f
 11. Integration of ElevenLabs for voice over and SFX 
 12. Could even integrate Hedra API for lip-sync 
 
-## Usage guide
+## Setup
 
+1. Clone this repository
+2. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Set up your API keys as environment variables or create a `.env` file in the project root with the following content:
+   ```
+   GROQ_API_KEY=your_groq_api_key_here
+   FAL_KEY=your_fal_api_key_here
+   LUMAAI_API_KEY=your_lumaai_api_key_here
+   ```
+   Replace `your_*_api_key_here` with your actual API keys.
+
+4. Run the application:
+   ```
+   python plotscribe.py
+   ```
+### Platforms
+
+1. Video: Luma AI Dream Machine API
+2. Image: FAL AI Flux API (I've used Schnell in code but upgrade to Pro for better output)
+3. Text: Groq API (I've used Llama 3.1 70B but any model should work)
 
 
 ![PlotScribe Screenshot](/ps_ss.png)
