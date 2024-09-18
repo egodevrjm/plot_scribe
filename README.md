@@ -41,9 +41,8 @@ Each stage will also have a manual entry option including the story generation f
    ```
 ### Platforms
 
-1. Video: Luma AI Dream Machine API
-2. Image: FAL AI Flux API (I've used Schnell in code but upgrade to Pro for better output)
-3. Text: Groq API (I've used Llama 3.1 70B but any model should work)
-
+1. Video: [Luma AI Dream Machine API](https://lumalabs.ai/dream-machine/api)
+2. Image: [FAL AI Flux API](https://fal.ai) (I've used Schnell in code but upgrade to Pro for better output)
+3. Text: [Groq API](https://console.groq.com/docs/models) (I've used Llama 3.1 70B but any model should work)
 
 ![PlotScribe Screenshot](/ps_ss.png)
