@@ -20,3 +20,4 @@ Integration of an AI music API such as Suno and ElevenLabs for voice over and SF
 Will be making it open source and available on GitHub once steps 1-7 are functional. So far its been about 18 hours from concept to step 5.
 
 ![PlotScribe screenshot]([ps_ss.png]))
+![My animated logo](/ps_ss.png)
